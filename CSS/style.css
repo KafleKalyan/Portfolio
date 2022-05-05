@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+display: flex;
+flex-direction: row;
+height: 110px;
+position: sticky;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: white;
+border-bottom: 2px solid peachpuff;
+}
+.navigation #first{
+    height: 100px;
+    width: 400px;
+    margin-left: 30px;
+}
+#first img{
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+.navigation #second {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.navigation #second ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+  margin-left: 20%;  
+  
+}
+.navigation #second a{
+    text-decoration: none;
+    font-family: 'Oleo Script';
+    font-size: 30px;
+    display: inline-block;
+   margin: 30% 15px;
+   text-transform: capitalize;
+   cursor: pointer;
+
+}
+.navigation #second a:hover{
+color: black;
+
+text-decoration: line-through;
+text-decoration-color: black;
+
+text-decoration-line: underline;
+
+transform-origin: 2px;
+transition: 0.5s;
+}
