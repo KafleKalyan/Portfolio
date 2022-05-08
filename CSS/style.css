@@ -64,8 +64,13 @@ transform-origin: 2px;
 transition: 0.5s;
 }
 
+.navigation #second a::after{
+text-decoration: line-through;
+text-decoration-color: red;
 
+text-decoration-line: underline;
 
+}
 
 
 
